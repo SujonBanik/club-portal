@@ -1,0 +1,12 @@
+/* Hero section background image + dark overlay so white text is readable */
+.hero {
+  padding: 100px 20px;
+  background: linear-gradient(rgba(10, 25, 60, .75), rgba(10, 25, 60, .75)),
+              url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1400") center/cover;
+}
+
+/* keep all card images the same height */
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
